@@ -1,0 +1,4 @@
+DATABASE_URL="mysql://root@localhost:3306/plura"
+
+npx prisma migrate dev --name init
+
